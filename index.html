@@ -1,0 +1,942 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bayespage by kongxingagit</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Bayespage</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/kongxingagit/bayespage">View the Project on GitHub <small>kongxingagit/bayespage</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/kongxingagit/bayespage/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/kongxingagit/bayespage/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/kongxingagit/bayespage">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>&lt;!doctype html&gt;</p>
+
+<p>
+</p>
+    
+    
+    
+    Text Mining and E-discovery | Turning Oodles of Documents into information | by Franklin Chou 
+
+<pre><code>&lt;meta name="description" content="Public Pitch document on why and how to start using text mining within one's e-discovery process." /&gt;
+&lt;meta name="author" content="Franklin Chou" /&gt;
+
+&lt;link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /&gt;
+
+
+&lt;link href="css/impress-demo.css" rel="stylesheet" /&gt;
+
+&lt;link rel="shortcut icon" href="favicon.png" /&gt;
+&lt;link rel="apple-touch-icon" href="apple-touch-icon.png" /&gt;
+</code></pre>
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<div>
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+
+<div id="impress">
+    
+    <div>
+        <q>
+            Ever had the feeling that people out there were trying to  secretly drown you in documents?
+        </q>
+    </div>
+    
+
+     <div>
+        <q>
+        Or had to make sense of large number of documents in a short period of time?
+        </q>
+    </div>  
+    
+     <div>
+         <q>Fight Back, turn your pile of documents into information by ...</q>        
+
+    </div> 
+    
+    <div>
+             <b>
+            <h1>
+<a id="------------using-text-mining-techniques-during-document-review------------" class="anchor" href="#------------using-text-mining-techniques-during-document-review------------" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+            Using Text Mining Techniques during Document Review
+            </h1>
+            </b>             
+
+    </div> 
+       
+    
+    
+    <div>
+         Disclaimer: I am not a         
+
+    </div> 
+    
+    <div>
+         <h1>
+<a id="-data-scientist" class="anchor" href="#-data-scientist" aria-hidden="true"><span class="octicon octicon-link"></span></a> Data Scientist</h1>         
+
+    </div>
+    
+    
+    
+    <div>
+         <p>Better programmming skills than a statistician</p>         
+
+    </div>
+    
+    <div>
+         <p> Better statistics know-how than a programmer</p>         
+
+    </div>
+    
+    <div>
+         <p> and domain knowledge </p>         
+
+    </div>
+    
+    
+
+    <div>
+         <h2>
+<a id="but-i-feel-fine" class="anchor" href="#but-i-feel-fine" aria-hidden="true"><span class="octicon octicon-link"></span></a>But I feel fine!</h2>        
+
+    </div>
+    
+    
+    <div>
+         <h2>
+<a id="-text-mining" class="anchor" href="#-text-mining" aria-hidden="true"><span class="octicon octicon-link"></span></a> Text mining</h2>         
+
+    </div>
+    
+    <div>
+         <p>The process of generating high equality information from text content using elements of machine learning</p>         
+
+    </div> 
+    
+    <div>
+         <p>Remember, data is <em>not</em> information.</p>         
+
+    </div>
+    
+     <div>
+         <p> We want to write programs that can go through databases automatically, and sniff out patterns.</p>   
+
+    </div>   
+    
+     <div>
+         <p> In essence, the framework we use to understand the data is derived from the data itself</p>   
+
+    </div>      
+    
+    <div>
+         <h3>
+<a id="-the-goals-of-text-mining" class="anchor" href="#-the-goals-of-text-mining" aria-hidden="true"><span class="octicon octicon-link"></span></a> The goals of text mining</h3>   
+
+    </div> 
+    
+    <div>
+         <p> 1. Find useful content and information</p>   
+
+    </div>     
+    
+    <div>
+         <p> 2. Categorize, organize and label text with little human intervention</p>   
+
+    </div>
+    
+
+    <div>
+         <p> 3. Do the other two on vast amounts of text.</p>   
+
+    </div>      
+    
+    <div>
+         <p> The increasingly large amounts of text of all kinds that is contantly generated poses
+        several issues of scalability</p>
+        <p>But also plays to data mining's greatest strength</p>
+
+    </div>      
+    
+    <div>
+         <p>The framework for understanding the data is derived from the data itself</p>   
+
+    </div>
+    
+    <div>
+         <p> The more data, the better the framework, sorta like having more sand to pan while panning for gold</p>   
+
+    </div>
+    
+    
+    
+    <div>
+         <p> Let's see how this plays out.</p>   
+    </div>      
+
+    
+    <div>
+         <q> One of the more standard procedures within text mining is entity recognition</q>   
+
+    </div>      
+    
+    <div>
+         <q> Entity recognition is the process of identifying people, places and things.</q>   
+
+    </div>
+
+    <div>
+         <q>Most people have no difficulty identifying someon'e name or a place from text</q>   
+        <q>We also have an amazing ability to infer <em>context</em> from the surrounding text</q>
+    </div>
+    
+    <div>
+         <q> For example, whether John Paul Jones referred to the Captain of a fighting sail or the musician</q>           <q>Or whether Georgia refers to peaches or plums.</q>
+    </div>
+    
+    <div>
+         <q> It is another matter altogether to articulate how we recognized a name and what it referred to</q>   
+    </div>
+    
+    <div>
+         <q> And it is even harder to try and explain that in a form understadable to a computer</q>   
+
+    </div>      
+    
+    <div>
+         <p> Think for a few seconds on how you would devise rules to recognize names of people</p>
+        <p> As we do value being able to determine among entity groups</p>
+        <em> No Really. Go do it.</em>
+    </div>      
+    
+    <div>
+         <q> Done?</q>   
+
+    </div>      
+    
+    <div>
+         <p> I'll share what I had.</p>   
+        <p> I would want to go for easy wins, so I will have the program grab any two words immediately following a salutation, like Mr. Mrs. etc</p>
+        <p> Some may have fancier terms, like Titles of some sort</p>
+        <p> Can also do the same for some trailing terms, like M.D, CPA etc</p>
+        <p> Barring that I want any two words that are both capitalized</p>
+        
+    </div>      
+    
+    <div>
+         <h3>
+<a id="-dr-pepper" class="anchor" href="#-dr-pepper" aria-hidden="true"><span class="octicon octicon-link"></span></a> Dr. Pepper?</h3>
+
+
+    </div>      
+
+    <div>
+         <h3>
+<a id="-e-e-cummings" class="anchor" href="#-e-e-cummings" aria-hidden="true"><span class="octicon octicon-link"></span></a> e e cummings?</h3>
+
+    </div>      
+    
+    <div>
+         <p>Ok, no problem, I will just make more rules for those</p>
+    </div>
+    
+    <div>
+         <p> But wait! Now you are on the wrong end of data (being drowned by data tsunami).</p>
+        <p> Laziness is a virtue</p>
+        <p>Hard to scale knowledge work</p>
+    </div>
+    
+    <div>
+         <p>Surf the data wave instead</p>
+        <p>Why not mark all the names, and have data mining rules infer the patterns from the data to detect the rest </p>
+    </div>
+    
+    
+    <div>
+        <p> 1. Mark up the aspects you want.</p>
+
+    </div>
+    
+    <div>
+
+        <p>2. Create Model </p>
+
+
+    </div>
+    
+    <div>
+
+        <p>3. Test and Tweak Model</p>
+
+    </div>
+    
+    <div>
+
+        <p>4. Run Model</p>
+
+
+    </div>
+    
+    <div>
+
+        <p>5. Tweak Model</p>
+    
+    </div>
+    
+ 
+    
+    <div>
+        <h2>
+<a id="-identify-desired-features-aspects" class="anchor" href="#-identify-desired-features-aspects" aria-hidden="true"><span class="octicon octicon-link"></span></a> Identify Desired Features/ Aspects</h2>
+        <p> If you can define it, you can find it</p>
+    </div>
+
+
+    <div>
+
+        <a href="https://harthur.github.io/kittydar/">
+             Heather Arthur's Kitty-Dar
+        </a>      
+        <img src="./assets/stealthcat.PNG" alt="stealthcat">
+    </div>
+    
+    <div>
+         <p>Thought to be near impossible</p>
+        <img src="./assets/tasks.PNG">
+    </div>
+        
+    <div>
+         <p>Challenge accepted</p>
+        <img src="./assets/challenge.jpg">
+        <img>
+    </div>
+    
+    <div>
+        <a href="http://parkorbird.flickr.com/">
+             Park or bird
+        </a>  
+    
+        
+    </div>
+    
+    <div>
+         <h3>
+<a id="text-classification-with-naive-bayes" class="anchor" href="#text-classification-with-naive-bayes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Text Classification with Naive Bayes</h3>
+    </div>
+    
+    
+    <div>
+         <p>Objective: Sort documents into user defined categories</p>
+    </div>    
+    
+    <div>
+         <p>Spam Filtering</p>
+
+    </div>    
+    
+    <div>
+         <p>Spam Filter used to rely on rule based filtering or blacklists</p>
+        
+    </div>
+    
+    <div>
+         <p>if $subj contains mortgage and Body contains "Click here to unsubscribe"</p>
+        <p> Place into spam folder</p>
+
+    </div>    
+    
+    <div>
+         <p>Alternately, use blacklists, ban certain domains or IPs</p>
+        <p> Spammers were blocked, but so were other innocent people</p>    
+    </div>
+    
+    <div>
+         <p>Creating rules that are not trivially defeated is hard</p>
+        <p>Very sucessful/strict rules caused more false positives</p>
+        <p> These are bad</p>
+        
+    </div>
+    
+    <div>
+         <p>Paul Graham</p>
+        <p>Seminal Essay "A Plan for Spam" Popularized the probabilistic approach</p>
+        
+        <img src="./assets/pg.jpg">
+
+    </div>    
+    
+    <div>
+         <blockquote>" To recognize individual spam features you have to try to get into the mind of the spammer, and frankly I want to spend as little time inside the minds of spammers as possible."</blockquote>
+    </div>   
+    
+    <div>
+         <p>Alternately, use blacklists, ban certain domains or IPs</p>
+        <p> Spammers were blocked, but so were other innocuous people</p>    
+    </div>
+    
+    
+    
+    <div>
+        <p> The most straightforward of approaches is Naive Bayes</p>
+        <p>Naive Bayes makes decisions on which category to place a document using probabilities derived
+        from document and term.word frequency</p>
+    </div>
+    
+    <div>
+         <p>Frequency of the categories</p>
+     </div>
+    
+    <div>
+        <p> Frequency of the Words in each of the categories</p>    
+    </div>    
+    
+    <div>
+         <p>Our test set consists of 6 documents</p>
+        
+        Don't forget to pick up some eggs.
+        You have won the Spanish lottery. Click to claim now!
+        Refinance your home at our low interest rates.
+        Can this unique formula make you lose weight?
+        Bob, I tried rebooting my modem, but I am still getting the blinkenlights 
+         Your Amazon.com order of (1 dozen eggs) has shipped!
+        
+  
+    </div>
+    
+    <div>
+         <p>p(event) is read as the probability of an event, which will be between 1 and 0.</p>
+    
+    </div>
+    
+    <div>
+         <p>p(spam)=3/6</p>
+        <p>p(ham)=3/6</p>
+        
+    </div>    
+
+    <div>
+         <p>Conditional Probability</p>
+        <p> Number of time each word appears in a category divided by the number divided by the number of words in that class</p>
+    
+    </div>
+    
+    <div>
+
+    </div>    
+    
+    <div>
+   
+
+    <p> In our example, lottery appears 1 time in three spams</p>
+            
+    </div>
+    
+    
+    <div>
+         <p>p(A|B) is the probability of event A given Event B</p>
+        <p>p(word|category)</p>
+
+    
+    </div>        
+
+    <div>
+         <p>In our example, lottery occurs 1 time in 3 spams</p>
+        <p>p(lottery|spam)=.33</p>
+        <p>p(lottery|ham)=0</p>
+    </div>    
+        
+    <div>
+         <h3>
+<a id="tokenization" class="anchor" href="#tokenization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tokenization</h3>
+    </div>        
+    
+    <div>
+         <p>The bits of data that goes into building the model are features.</p>
+        <p>Analogous to a variable in a regression model, such as <em>age</em> or <em>wage</em></p>
+    </div>        
+    
+    <div>
+         <p>Words are document features</p>
+        <p> When we say words we mean tokens</p>
+        
+    </div>
+    <div>
+         <p>A token is the result of breaking a text document into small usable chunks of text.</p>
+    </div>
+    
+    <div>
+         <p>Breaking by spaces, or periods</p>
+        <p>140.122.123.1 IP Address</p>
+        <p> Sentence with period but no space.Like these two.</p>
+    </div>
+    
+    <div>
+         <p>Harder in other languages</p>
+        <p>便當</p>
+        <p>便</p>
+        <p>當</p>
+    </div>
+
+    <div>
+
+    </div>  
+
+    
+    <div>
+         <p>Stop Word List</p>
+        the, is, at, which, and, on, has
+    </div>
+    
+    
+
+    <div id="stopwords">
+         
+        
+        Don't forget to pick up some eggs before you come home.
+        You have won the Spanish lottery. Click to claim now!
+        Refinance your home at our low interest rates.
+        Can this unique formula make you lose weight?
+        Bob, I tried rebooting my modem, but I am still getting the blinkenlights
+         Your Amazon.com order of (1 dozen eggs) has shipped!
+    </div>
+    
+    <div>
+        <p>AFter this each document is reduced to a bag of words</p>
+        <p> Word order, punctuation etc are not preserved</p>
+        
+    </div>
+    <div id="stopwords">
+         
+        
+        Don't forget to pick up some eggs before you come home.
+        You have won the Spanish lottery. Click to claim now!
+        Refinance your home at our low interest rates.
+        Can this unique formula make you lose weight?
+        Bob, I tried rebooting my modem, but I am still getting the blinkenlights
+         Your Amazon.com order of (1 dozen eggs) has shipped!
+    </div>
+        
+    
+    <div>
+        <p>Naive part</p>
+        <p> Assumes that all tokens are independent of one another</p>
+    </div>
+    
+    <div>
+        <p>Obvious Wrong Assumption!</p>
+        <p> "Clam" is more likely to show up with "England" than say "Georgia", as in  </p>
+        <p>New England Clam Chowder</p>
+        <p>New England Clam Bake</p>
+    </div>
+    
+    <div>
+        <p>"Cow" is very unlikely to show up with "space"</p>
+        
+    </div>
+    
+    <div>
+        <p>Naive Bayes can still work very well even with this assumption</p>
+        <p>Look at other ways to relax this assumption</p>
+    </div>
+    <div>
+        <p>Naive Bayes can still work very well even with this assumption</p>
+        <p>Look at other ways to relax this assumption later</p>
+    </div>
+
+    <div>
+        <p>With each document as a bag of words</p>
+        <p> We calculate p(word|category) for all words and categories </p>
+    </div>
+        
+    <div>
+        <h2>
+<a id="bayes-theorem" class="anchor" href="#bayes-theorem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bayes Theorem</h2>
+        <p> 300 Year old tech</p>
+          <p>P(A|B)=P(B|A)P(A)/P(B)</p>
+          <p>Intuitively, I observe some evidence, what is the likleihood of the event </p>
+          <p>Ex: I have body aches. What is the probability I have Ebola?</p>
+    </div>
+    
+    <div>
+        <p>I observe a document with "Spanish" "lottery" "won". What is the probability it is spam?</p>
+    </div>
+    
+    <div>
+        <p>p(spam|"Spanish")=.5</p>
+        <p>p(spam|"lottery")=.8</p>
+        <p>p(spam|"won")=.4</p>
+
+    </div>
+    
+    <div>
+        <p>We multiply the word probabilities with each other for numerator</p>
+        <p>.5*.8*.4=.16</p>
+
+    </div>
+    
+    <div>
+        <p>For the denominator we multiply the inverse and add that to the value of the numerator</p>
+        <p>EX: p(notSpam|"Spanish")*p(notSpam|"lottery")*p(notSpam|"won")</p>
+        <p>.16+.5*.2*.6=.22</p>
+
+    </div>    
+    
+    <div>
+        <p>Numerator/Denominator to get a probability instead of likelihood</p>
+        <p>.16/.22=.72 or .72% chance of being spam</p>
+        
+
+    </div>    
+    
+    <div>
+        <p>We are done if it is a binary classifier, else repeat for each category</p>
+    </div>    
+    
+
+    <div>
+        <h3>
+<a id="decision-rules" class="anchor" href="#decision-rules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Decision Rules</h3>
+    </div>    
+    
+    
+    
+    <div>
+        <p>We need a type of decision for the probabilities we calculated</p>
+      
+    </div>    
+    
+    <div>
+        Take the highest.
+        Take the highest given that it exceeds a benchmark
+        Take the higest if and only if it exceeds the runner up by x
+         More?
+    </div>    
+    
+    <div>
+        <h2>
+<a id="basic-work-flow-for-successful-bayesian-filtering" class="anchor" href="#basic-work-flow-for-successful-bayesian-filtering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic work flow for successful Bayesian filtering</h2>
+    </div>
+    
+    <div>
+                    Get some documents
+    </div>
+    
+    <div>
+              Use an expert, tag the documents 
+    </div> 
+    <div>
+        Train the model with marked documents 
+    </div> 
+    <div>
+         Evaluate the model on a withheld, known testing set
+    </div> 
+    <div>
+         Fix the model
+    </div> 
+    
+    
+        
+    <div>
+         Repeat Evaluation if Necessary
+    </div>     
+    
+        
+    <div>
+          Run it on production
+    </div>     
+    
+        
+    <div>
+         Check results
+    </div>     
+    
+        
+    <div>
+         Keep tweaking and retraining the model
+    </div>     
+    
+    
+    <div>
+        
+    </div>     
+
+    
+    <div>
+        <p> We have covered some of the steps already, so let's talk about evaluation</p>
+        <p> To know how the classifier is doing, we measure a few things</p>
+    </div>
+    
+    <div>
+        <p> Type 1 errors</p>
+        <p> False Positive</p>
+    </div>    
+    
+    <div>
+        <p> Type 2 Error</p>
+        <p> False Negative</p>
+    </div>    
+    
+    <div>
+        <p> Whiche one matters more depends on the task</p>
+        <p> Ham as spam=Type 1=bad</p>
+        <p> Responsive as non/unresonsive=type 2= also bad</p>
+    </div> 
+    
+    <div>
+        <h3>
+<a id="use-a-confusion-matrix" class="anchor" href="#use-a-confusion-matrix" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use a confusion matrix</h3>
+        <img src="./assets/confusionmatrix.PNG">
+    </div>
+    
+    <div>
+        <p> Reserve a seperate testing set of human classified docs</p>
+        <p>Apply the classifier, check expected results and tweak</p>
+    </div>      
+    
+     
+    
+    <div>
+        <h2>
+<a id="improving-the-model" class="anchor" href="#improving-the-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Improving the model</h2>
+    </div>
+
+    <div>
+        <h2>
+<a id="metadata" class="anchor" href="#metadata" aria-hidden="true"><span class="octicon octicon-link"></span></a>Metadata</h2>
+        
+    </div>
+    
+    <div>
+        <p> Information such as subject line for emails</p>
+        <p>Some words can be more of interest when appearing in different areas of the meta data</p>
+        <p> Classic example from pg is "free" in subject line is much more spammy compared to "free" in the body.</p>
+    </div>
+    
+    <div>
+        <h2>
+<a id="-n-grams" class="anchor" href="#-n-grams" aria-hidden="true"><span class="octicon octicon-link"></span></a> N-Grams</h2>
+        
+    </div>
+        
+    
+    <div>
+        <p> Recall the naive independence assumption?</p>
+        <p> We can add more information by dropping this and bringing in n-grams</p>
+        
+    </div>
+        
+    
+    <div>
+        <h2>
+<a id="n-grams-work-because-words-that-are-close-together-tend-to-hold-information" class="anchor" href="#n-grams-work-because-words-that-are-close-together-tend-to-hold-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>n-grams work because words that are close together tend to hold information</h2>
+        <p>A bigram is splitting text into pseudo phrases by skipping up to two words </p>
+    </div>
+    
+    <div>
+        <q>Take the money and run.</q>
+        <p> Becomes</p>
+        Take the
+        Take [skip] money 
+         Take [skip] [skip] and
+        the money
+        the [skip] money
+        <p> and so on</p>
+    </div>
+    
+    <div>
+        <p> By forming n-grams as features, we take into account that neighbouring words are NOT independent, and preserve information</p>
+        
+    </div>    
+    
+    <div>
+        <h2>
+<a id="-stemming" class="anchor" href="#-stemming" aria-hidden="true"><span class="octicon octicon-link"></span></a> Stemming</h2>
+        
+    </div>    
+    
+    <div>
+        <p> Execution time tweak, trim features to stem words</p>
+        <p> "Running" trimmed to stem "run" for example</p>
+        <p> Some may trim out features of numbers to cut down the dictionary size</p>
+        
+    </div>
+    
+    
+    <div>
+        <h2>
+<a id="defeating-the-model" class="anchor" href="#defeating-the-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Defeating the model</h2>
+    </div>
+    
+    <div>
+        <h2>
+<a id="-spam-long-passages-and-hope-for-a-safe-word" class="anchor" href="#-spam-long-passages-and-hope-for-a-safe-word" aria-hidden="true"><span class="octicon octicon-link"></span></a> Spam long passages and hope for a safe word</h2>
+        
+    </div>    
+    
+    <div>
+        <p> For example, placing a bible passage inside the document</p>
+        <p> The bible passage has several innocuous words, but the spammers hope is he triggers a word whose p(ham|word) is high</p>
+        <p> For example, if you have a good friend named Bob</p>
+        <p> Spammer pastes in "If Bob dole could dole dough"</p>
+        <p> Limiting each document to the most informative tokens can somewhat help (needs several lucky tokens in a row to bypass)</p>
+    </div>
+    
+    <div>
+        <h2>
+<a id="-code-words" class="anchor" href="#-code-words" aria-hidden="true"><span class="octicon octicon-link"></span></a> Code Words</h2>
+        
+    </div>     
+    
+    <div>
+        <p>Picked up whenever training set is expanded</p>
+    </div>
+
+
+    <div>
+        <h2>
+<a id="implementing-the-model" class="anchor" href="#implementing-the-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementing the model</h2>
+    </div>
+    
+    <div>
+        <p> Apache Stack</p>
+        
+    </div>
+    
+    <div>
+        <p> Open NLP</p>
+    </div>
+    
+    <div>
+        <p>NLTK </p>
+        
+    </div>
+    
+    <div>
+        <p> Bow</p>
+        
+    </div>    
+    
+    <div>
+        <p> Gate</p>
+    </div>
+    
+    <div>
+        <p> For those who want  blame based development excellent commercial support</p>
+        <p>Several commercial packages</p>
+        
+    </div>    
+    
+    <div>
+        <p> Integration needs some glue code </p>
+        
+    </div>    
+    
+
+
+    
+    <div>
+        <h2>
+<a id="users-and-the-classifier" class="anchor" href="#users-and-the-classifier" aria-hidden="true"><span class="octicon octicon-link"></span></a>Users and the Classifier</h2>
+    </div>    
+     
+    
+    <div>
+        <h2>
+<a id="beyond-classification-other-text-mining-procedures" class="anchor" href="#beyond-classification-other-text-mining-procedures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Beyond Classification, other text mining procedures</h2>
+    </div>
+    
+    <div>
+        <h3>
+<a id="named-entity-recognition" class="anchor" href="#named-entity-recognition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Named Entity Recognition</h3>
+         
+    </div>
+    
+    <div>
+        <h3>
+<a id="clustering" class="anchor" href="#clustering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clustering</h3>
+    </div>    
+    
+    <div>
+        <h3>
+<a id="threading" class="anchor" href="#threading" aria-hidden="true"><span class="octicon octicon-link"></span></a>Threading</h3>
+    </div>    
+    
+    <div>
+        <h1>
+<a id="questions" class="anchor" href="#questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Questions?</h1>
+    </div>    
+    
+    <div id="overview">
+    </div>
+
+    
+            
+          
+    
+ 
+    
+    
+    
+
+    
+   
+<div>
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<p>
+</p>
+
+
+
+</div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/kongxingagit">kongxingagit</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
