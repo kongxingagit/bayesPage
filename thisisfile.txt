@@ -1,0 +1,84 @@
+Why machine learning?
+
+Data, oodles of it and more everyday.
+
+2011 stats 1.8 Zettabytes (write that out)
+
+not just ultra high definition videos of dubious intellectual content of cats
+
+facebook tracking of clicks and hovers
+
+Tokenization difficulties,
+
+space is a token? comma is token
+english is easier, other languages tokens are harder
+
+
+character 
+word 
+multiword (markovian n grams)
+
+paragraph document 
+corpus
+
+entity identification
+
+tokenizing or splitting
+
+String[] result = input.split("\\s+");.
+Case alterations¡XLowercasing all tokens can be helpful in searching.
+
+Stemming¡XReducing a word to a root or base form, for example, dogs to dog
+
+i am not a data scientist and i feel fine
+
+programming statistics
+domain knowledge
+
+
+model a sequence is to examine each element in a sequence as well as some of the elements
+that immediately precede and follow it.
+
+n gram modelling
+
+machine learning has many applications
+
+bird versus park
+kittydar
+
+supervised and unsupervised
+
+preprocessing
+
+use of libraries to preprocess
+
+pdfs are a pain need ocr then pdf box
+
+tika is a parser
+
+named-entity recognition (NER)
+
+identifying people places and things
+
+	try writing a rule for name /person recognition
+
+	First and last? Possibly Mr? Capitalized
+
+	Dr. Pepper?
+	e e cummings?
+
+fuzzy matching
+
+what is text mining
+
+why use text mining
+
+how are some ways we can use text mining
+
+
+
+
+
+
+
+
