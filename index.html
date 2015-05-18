@@ -1,94 +1,20 @@
 <!doctype html>
 
-<!--
 
-    Welcome to the light side of the source, young padawan.
-
-    One step closer to learn something interesting you are...
-
-                               ____                  
-                            _.' :  `._               
-                        .-.'`.  ;   .'`.-.           
-               __      / : ___\ ;  /___ ; \      __  
-             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
-             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
-                  `:-.._J '-.-'L__ `-.-' L_..-;'     
-                    "-.__ ;  .-"  "-.  : __.-"       
-                        L ' /.======.\ ' J           
-                         "-.   "__"   .-"            
-                        __.l"-:_JL_;-";.__           
-                     .-j/'.;  ;""""  / .'\"-.        
-                   .' /:`. "-.:     .-" .';  `.      
-                .-"  / ;  "-. "-..-" .-"  :    "-.   
-             .+"-.  : :      "-.__.-"      ;-._   \  
-             ; \  `.; ;                    : : "+. ; 
-             :  ;   ; ;                    : ;  : \: 
-             ;  :   ; :                    ;:   ;  : 
-            : \  ;  :  ;                  : ;  /  :: 
-            ;  ; :   ; :                  ;   :   ;: 
-            :  :  ;  :  ;                : :  ;  : ; 
-            ;\    :   ; :                ; ;     ; ; 
-            : `."-;   :  ;              :  ;    /  ; 
-             ;    -:   ; :              ;  : .-"   : 
-             :\     \  :  ;            : \.-"      : 
-              ;`.    \  ; :            ;.'_..-=  / ; 
-              :  "-.  "-:  ;          :/."      .'  :
-               \         \ :          ;/  __        :
-                \       .-`.\        /t-""  ":-+.   :
-                 `.  .-"    `l    __/ /`. :  ; ; \  ;
-                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
-                    \ / .-"   /.     .'.' ;_:'    ;  
-                     :-""-.`./-.'     /    `.___.'   
-                           \ `t  ._  /               
-                            "-.t-._:'                
-
--->
-
-<!--
-    
-    So you'd like to know how to use impress.js?
-    
-    You've made the first, very important step - you're reading the source code.
-    And that's how impress.js presentations are built - with HTML and CSS code.
-    
-    Believe me, you need quite decent HTML and CSS skills to be able to use impress.js effectively.
-    More importantly, you need to be a designer. There are no default styles or layouts for impress.js presentations.
-    
-    You need to design and build it by hand.
-    
-    So...
-    
-    Would you still like to know how to use impress.js?
-    
--->
 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>Text Mining and E-discovery | Turning Oodles of Documents into information | by Franklin Chou </title>
     
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+    <meta name="description" content="Public Pitch document on why and how to start using text mining within one's e-discovery process." />
+    <meta name="author" content="Franklin Chou" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
-    <!--
-        
-        Impress.js doesn't depend on any external stylesheets. It adds all of the styles it needs for the
-        presentation to work.
-        
-        This style below contains styles only for demo presentation. Browse it to see how impress.js
-        classes are used to style presentation steps, or how to apply fallback styles, but I don't want
-        you to use them directly in your presentation.
-        
-        Be creative, build your own. We don't really want all impress.js presentations to look the same,
-        do we?
-        
-        When creating your own presentation get rid of this file. Start from scratch, it's fun!
-        
-    -->
+
     <link href="css/impress-demo.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
@@ -136,18 +62,873 @@
     a number of ms. It defaults to 1000 (1s).
     
     You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
-    It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
+    It defaults to 1000. You can set it to 0 if you don't want any 3D effects. Defaults to 1000
     If you are willing to change this value make sure you understand how CSS perspective works:
     https://developer.mozilla.org/en/CSS/perspective
     
     But as I said, you won't need it for now, so don't worry - there are some simple but interesting things
     right around the corner of this tag ;)
+use blockquote for longer quotes
     
 -->
 <div id="impress">
+    
+    <div class="step slide" data-x="-2000" data-y="-10000" data-z="-100" data-rotate-x="90"  data-scale=".5">
+        <q>
+            Ever had the feeling that people out there were trying to <span class= "sneaky"> secretly</span> <span class="drown">drown</span> you in documents?
+        </q>
+    </div>
+    
+
+     <div class="step slide" data-x="-1500" data-y="-10000" data-z="-100" data-rotate-x="90"  data-scale=".5">
+        <q>
+        Or had to make sense of large number of documents in a short period of time?
+        </q>
+    </div>  
+    
+     <div class="step slide " data-x="-1000" data-y="-10000" data-z="-100" data-rotate-x="90"  data-scale=".5">
+         <q>Fight Back, turn your pile of documents into information by ...</q>        
+
+    </div> 
+    
+    <div class="step " data-x="0" data-y="0" data-scale="5">
+             <b>
+            <h1>
+            Using Text Mining Techniques during Document Review
+            </h1>
+            </b>             
+
+    </div> 
+       
+    <!-- data scientist cluster-->
+    
+    <div class="step " data-x="100" data-y="100" data-z=-100 data-scale=".1">
+         <span class="disclaimer">Disclaimer: I am not a</span>         
+
+    </div> 
+    
+    <div class="step " data-x="100" data-y="110" data-z=-100 data-scale=".1">
+         <h1> Data Scientist</h1>         
+
+    </div>
+    
+    <!-- fly out -->
+    
+    <div class="step " data-x="120" data-y="110" data-z=-100 data-scale=".05">
+         <p>Better programmming skills than a statistician</p>         
+
+    </div>
+    
+    <div class="step " data-x="120" data-y="120" data-z=-100 data-scale=".05">
+         <p> Better statistics know-how than a programmer</p>         
+
+    </div>
+    
+    <div class="step " data-x="120" data-y="130" data-z=-100 data-scale=".05">
+         <p> and domain knowledge </p>         
+
+    </div>
+    
+    
+
+    <div class="step " data-x="100" data-y="130" data-z=-100 data-scale=".2">
+         <h2>But I feel fine!</h2>        
+
+    </div>
+    
+    
+    <div class="step " data-x="3000" data-y="0" data-scale="4">
+         <h2> Text mining</h2>         
+
+    </div>
+    
+    <div class="step " data-x="3000" data-y="-10" data-z="-2000" data-scale="1">
+         <p>The process of generating high equality information from text content using elements of machine learning</p>         
+
+    </div> 
+    
+    <div class="step " data-x="4000" data-y="-10" data-z="-2000" data-scale="1">
+         <p class="reminder">Remember, data is <em>not</em> information.</p>         
+
+    </div>
+    
+     <div class="step " data-x="5000" data-y="-10" data-z="-2000" data-scale="1">
+         <p > We want to write programs that can go through databases automatically, and sniff out patterns.</p>   
+
+    </div>   
+    
+     <div class="step " data-x="6000" data-y="-10" data-z="-2000" data-scale="1">
+         <p > In essence, the framework we use to understand the data is derived from the data itself</p>   
+
+    </div>      
+    
+    <div class="step " data-x="3000" data-y="-3500" data-scale="4">
+         <h3 > The goals of text mining</h3>   
+
+    </div> 
+    
+    <div class="step " data-x="3000" data-y="500" data-z=-1000 data-rotate-y="90" data-scale="1">
+         <p > 1. Find useful content and information</p>   
+
+    </div>     
+    
+    <div class="step " data-x="3000" data-y="500" data-z=-2000 data-rotate-y="90" data-scale="1">
+         <p > 2. Categorize, organize and label text with little human intervention</p>   
+
+    </div>
+    
+
+    <div class="step " data-x="3000" data-y="500" data-z=-3000 data-rotate-y="90" data-scale="1">
+         <p > 3. Do the other two on vast amounts of text.</p>   
+
+    </div>      
+    
+    <div class="step " data-x="3000" data-y="500" data-z=-4000 data-rotate-y="90" data-scale="1">
+         <p > The increasingly large amounts of text of all kinds that is contantly generated poses
+        several issues of scalability</p>
+        <p>But also plays to data mining's greatest strength</p>
+
+    </div>      
+    
+    <div class="step" data-x="3000" data-y="500" data-z=-5000 data-rotate-y="90" data-scale="1">
+         <p >The framework for understanding the data is derived from the data itself</p>   
+
+    </div>
+    
+    <div class="step" data-x="3000" data-y="500" data-z=-6000 data-rotate-y="90" data-scale="1">
+         <p > The more data, the better the framework, sorta like having more sand to pan while panning for gold</p>   
+
+    </div>
+    
+    <!-- change of view-->
+    
+    <div class="step" data-x="3000" data-y="500" data-z=-6500 data-rotate-z="60" data-scale="1">
+         <p > Let's see how this plays out.</p>   
+    </div>      
+
+    
+    <div class="step slide" data-x="3000" data-y="1500" data-z=-8000 data-rotate-z="60" data-scale="1">
+         <q > One of the more standard procedures within text mining is entity recognition</q>   
+
+    </div>      
+    
+    <div class="step slide" data-x="3000" data-y="2500" data-z=-8000 data-rotate-z="60" data-scale="1">
+         <q> Entity recognition is the process of identifying people, places and things.</q>   
+
+    </div>
+
+    <div class="step slide" data-x="3000" data-y="3500" data-z=-8000 data-rotate-z="60" data-scale="1">
+         <q >Most people have no difficulty identifying someon'e name or a place from text</q>   
+        <q>We also have an amazing ability to infer <em>context</em> from the surrounding text</q>
+    </div>
+    
+    <div class="step slide" data-x="3000" data-y="4500" data-z=-8000 data-rotate-z="60" data-scale="1">
+         <q> For example, whether John Paul Jones referred to the Captain of a fighting sail or the musician</q>           <q>Or whether Georgia refers to peaches or plums.</q>
+    </div>
+    
+    <div class="step slide" data-x="3000" data-y="5500" data-z=-8000 data-rotate-z="60" data-scale="1">
+         <q > It is another matter altogether to articulate how we recognized a name and what it referred to</q>   
+    </div>
+    
+    <div class="step slide" data-x="3000" data-y="6500" data-z=-8000 data-rotate-z="60" data-scale="1">
+         <q > And it is even harder to try and explain that in a form understadable to a computer</q>   
+
+    </div>      
+    
+    <div class="step " data-x="3000" data-y="6500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <p > Think for a few seconds on how you would devise rules to recognize names of people</p>
+        <P> As we do value being able to determine among entity groups</P>
+        <em> No Really. Go do it.</em>
+    </div>      
+    
+    <div class="step " data-x="4000" data-y="6500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <q > Done?</q>   
+
+    </div>      
+    
+    <div class="step " data-x="4000" data-y="7500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <p > I'll share what I had.</p>   
+        <p> I would want to go for easy wins, so I will have the program grab any two words immediately following a salutation, like Mr. Mrs. etc</p>
+        <p> Some may have fancier terms, like Titles of some sort</p>
+        <p> Can also do the same for some trailing terms, like M.D, CPA etc</p>
+        <p> Barring that I want any two words that are both capitalized</p>
+        
+    </div>      
+    
+    <div class="step " data-x="5000" data-y="7000" data-z=-9000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <h3 > Dr. Pepper?</h3>
+
+
+    </div>      
+
+    <div class="step " data-x="5000" data-y="7100" data-z=-9000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <h3 > e e cummings?</h3>
+
+    </div>      
+    
+    <div class="step " data-x="4000" data-y="8500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <p >Ok, no problem, I will just make more rules for those</p>
+    </div>
+    
+    <div class="step " data-x="4000" data-y="9500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <p> But wait! Now you are on the wrong end of data (being drowned by data tsunami).</p>
+        <p> Laziness is a virtue</p>
+        <p>Hard to scale knowledge work</p>
+    </div>
+    
+    <div class="step " data-x="4000" data-y="10500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+         <p >Surf the data wave instead</p>
+        <p>Why not mark all the names, and have data mining rules infer the patterns from the data to detect the rest </p>
+    </div>
+    
+    <!--repeating motif to cats to initial results-->
+    <div class="step " data-x="8000" data-y="7700" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+        <p> 1. Mark up the aspects you want.</p>
+
+    </div>
+    
+    <div class="step " data-x="8000" data-y="7900" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+
+        <p>2. Create Model </p>
+
+
+    </div>
+    
+    <div class="step " data-x="8000" data-y="8100" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+
+        <p>3. Test and Tweak Model</p>
+
+    </div>
+    
+    <div class="step " data-x="8000" data-y="8300" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+
+        <p>4. Run Model</p>
+
+
+    </div>
+    
+    <div class="step " data-x="8000" data-y="8500" data-z=-8000 data-rotate-y="90" data-rotate-z="60" data-scale="1">
+
+        <p>5. Tweak Model</p>
+    
+    </div>
+    
+ 
+    
+    <div class="step " data-x="3000" data-y="500" data-scale="4">
+        <h2> Identify Desired Features/ Aspects</h2>
+        <p> If you can define it, you can find it</p>
+    </div>
+
+
+    <div class="step " data-x="3000" data-y="500" data-z="-1000" data-scale="1">
+
+        <a href="https://harthur.github.io/kittydar/">
+             Heather Arthur's Kitty-Dar
+        </a>      
+        <img src="./assets/stealthcat.PNG" alt="stealthcat">
+    </div>
+    
+    <div class="step " data-x="4000" data-y="500" data-z="-1000" data-scale="1">
+         <p>Thought to be near impossible</p>
+        <img src="./assets/tasks.PNG">
+    </div>
+        
+    <div class="step " data-x="5000" data-y="500" data-z="-1000" data-scale="1">
+         <p >Challenge accepted</p>
+        <img src="./assets/challenge.jpg">
+        <img>
+    </div>
+    
+    <div class="step " data-x="6000" data-y="500" data-z="-1000" data-scale="1">
+        <a href="http://parkorbird.flickr.com/">
+             Park or bird
+        </a>  
+    
+        <!-- snide comments on cost of making programs start demo-->
+    </div>
+    
+    <div class="step " data-x="2000" data-y="1500" data-scale="4">
+         <h3>Text Classification with Naive Bayes</h3>
+    </div>
+    
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-1000" data-rotate-y="90" data-scale="1">
+         <p>Objective: Sort documents into user defined categories</p>
+    </div>    
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-2000" data-rotate-y="90" data-scale="1">
+         <p >Spam Filtering</p>
+
+    </div>    
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-3000" data-rotate-y="90" data-scale="1">
+         <p>Spam Filter used to rely on rule based filtering or blacklists</p>
+        
+    </div>
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-4000" data-rotate-y="90" data-scale="1">
+         <p >if $subj contains mortgage and Body contains "Click here to unsubscribe"</p>
+        <p> Place into spam folder</p>
+
+    </div>    
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-5000" data-rotate-y="90" data-scale="1">
+         <p>Alternately, use blacklists, ban certain domains or IPs</p>
+        <p> Spammers were blocked, but so were other innocent people</p>    
+    </div>
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-6000" data-rotate-y="90" data-scale="1">
+         <p >Creating rules that are not trivially defeated is hard</p>
+        <p>Very sucessful/strict rules caused more false positives</p>
+        <p> These are bad</p>
+        <!--Sowing the seeds of failure more successful less they check-->
+    </div>
+    
+    <div class="step" data-x="2000" data-y="2500" data-z="-6000" data-rotate-y="90" data-scale="1">
+         <p>Paul Graham</p>
+        <p>Seminal Essay "A Plan for Spam" Popularized the probabilistic approach</p>
+        <!--Bayes long known-->
+        <img src="./assets/pg.jpg">
+
+    </div>    
+    
+    <div class="step " data-x="2000" data-y="3500" data-z="-6000" data-rotate-y="90" data-scale="1">
+         <blockquote>" To recognize individual spam features you have to try to get into the mind of the spammer, and frankly I want to spend as little time inside the minds of spammers as possible."</blockquote>
+    </div>   
+    
+    <div class="step " data-x="2000" data-y="4500" data-z="-6000" data-rotate-y="90" data-scale="1">
+         <p>Alternately, use blacklists, ban certain domains or IPs</p>
+        <p> Spammers were blocked, but so were other innocuous people</p>    
+    </div>
+    
+    <!--Break  -->
+    
+    <div class="step " data-x="2000" data-y="5500" data-z="-6000" data-rotate-y="90" data-scale="1">
+        <p> The most straightforward of approaches is Naive Bayes</p>
+        <p>Naive Bayes makes decisions on which category to place a document using probabilities derived
+        from document and term.word frequency</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="5500" data-z="-6000" data-rotate-y="90" data-scale="1">
+         <p>Frequency of the categories</p>
+     </div>
+    
+    <div class="step " data-x="1000" data-y="6000" data-z="-6000" data-rotate-y="90" data-scale="1">
+        <p> Frequency of the Words in each of the categories</p>    
+    </div>    
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-1000" data-scale="1">
+         <p>Our test set consists of 6 documents</p>
+        
+        <li>Don't forget to pick up some eggs.</li>
+        <li>You have won the Spanish lottery. Click to claim now!</li>
+        <li>Refinance your home at our low interest rates.</li>
+        <li>Can this unique formula make you lose weight?</li>
+        <li>Bob, I tried rebooting my modem, but I am still getting the blinkenlights </li>
+        <li> Your Amazon.com order of (1 dozen eggs) has shipped!</li>
+        
+  
+    </div>
+    
+    <div class="step " data-x="2800" data-y="1600" data-z="-1000" data-scale="1">
+         <p>p(event) is read as the probability of an event, which will be between 1 and 0.</p>
+    
+    </div>
+    
+    <div class="step " data-x="2800" data-y="1800" data-z="-1000" data-scale="1">
+         <p>p(spam)=3/6</p>
+        <p>p(ham)=3/6</p>
+        <!--Can start making crappy guesses -->
+    </div>    
+
+    <div class="step " data-x="2800" data-y="2100" data-z="-1000" data-scale="1">
+         <p>Conditional Probability</p>
+        <p> Number of time each word appears in a category divided by the number divided by the number of words in that class</p>
+    
+    </div>
+    
+    <div class="step " data-x="2000" data-y="1500" data-z="-1000" data-scale="1">
+<!-- Looks at our spam list-->
+    </div>    
+    
+    <div class="step " data-x="2800" data-y="2300" data-z="-1000" data-scale="1">
+   
+
+    <p> In our example, lottery appears 1 time in three spams</p>
+        <!--Quick aside on word frequency -->    
+    </div>
+    
+    
+    <div class="step " data-x="2800" data-y="2500" data-z="-1000" data-scale="1">
+         <p>p(A|B) is the probability of event A given Event B</p>
+        <p>p(word|category)</p>
+
+    
+    </div>        
+
+    <div class="step " data-x="2800" data-y="2700" data-z="-1000" data-scale="1">
+         <p>In our example, lottery occurs 1 time in 3 spams</p>
+        <p>p(lottery|spam)=.33</p>
+        <p>p(lottery|ham)=0</p>
+    </div>    
+        
+    <div class="step " data-x="1000" data-y="1000" data-scale="3">
+         <h3>Tokenization</h3>
+    </div>        
+    
+    <div class="step " data-x="1000" data-y="1000" data-z="-1000" data-rotate-y="90" data-scale="1">
+         <p>The bits of data that goes into building the model are features.</p>
+        <p>Analogous to a variable in a regression model, such as <em>age</em> or <em>wage</em></p>
+    </div>        
+    
+    <div class="step " data-x="1000" data-y="1000" data-z="-2000" data-rotate-y="90" data-scale="1">
+         <p>Words are document features</p>
+        <p> When we say words we mean tokens</p>
+        
+    </div>
+    <div class="step " data-x="1000" data-y="1000" data-z="-3000" data-rotate-y="90" data-scale="1">
+         <p>A token is the result of breaking a text document into small usable chunks of text.</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="1000" data-z="-4000" data-rotate-y="90" data-scale="1">
+         <p>Breaking by spaces, or periods</p>
+        <p>140.122.123.1 IP Address</p>
+        <p> Sentence with period but no space.Like these two.</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="1000" data-z="-5000" data-rotate-y="90" data-scale="1">
+         <p>Harder in other languages</p>
+        <p>便當</p>
+        <p>便</p>
+        <p>當</p>
+    </div>
+
+    <div class="step " data-x="2000" data-y="1500" data-z="-1000" data-scale="1">
+<!-- Looks at our spam list-->
+    </div>  
+
+    
+    <div class="step " data-x="1000" data-y="1000" data-z="-6000" data-rotate-y="90" data-scale="1">
+         <p>Stop Word List</p>
+        <span class="footnote">the, is, at, which, and, on, has</span>
+    </div>
+    
+    
+
+    <div id="stopwords" class="step " data-x="2000" data-y="3000" data-z="-1000" data-scale="1">
+        <!--Add CSS to strike through stop words --> 
+        
+        <li>Don't forget to pick up some eggs before you come home.</li>
+        <li>You have won the Spanish lottery. Click to claim now!</li>
+        <li>Refinance your home at our low interest rates.</li>
+        <li>Can this unique formula make you lose weight?</li>
+        <li>Bob, I tried rebooting my modem, but I am still getting the blinkenlights</li>
+        <li> Your Amazon.com order of (1 dozen eggs) has shipped!</li>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="1000" data-z="-7000" data-rotate-y="90" data-scale="1">
+        <p>AFter this each document is reduced to a bag of words</p>
+        <p> Word order, punctuation etc are not preserved</p>
+        
+    </div>
+    <div id="stopwords" class="step " data-x="2000" data-y="4000" data-z="-1000" data-scale="1">
+        <!--Add CSS to place left overs in a bag --> 
+        
+        <li>Don't forget to pick up some eggs before you come home.</li>
+        <li>You have won the Spanish lottery. Click to claim now!</li>
+        <li>Refinance your home at our low interest rates.</li>
+        <li>Can this unique formula make you lose weight?</li>
+        <li>Bob, I tried rebooting my modem, but I am still getting the blinkenlights</li>
+        <li> Your Amazon.com order of (1 dozen eggs) has shipped!</li>
+    </div>
+        
+    
+    <div class="step " data-x="2000" data-y="2500" data-z="-1000" data-rotate-y="90" data-scale="1">
+        <p>Naive part</p>
+        <p> Assumes that all tokens are independent of one another</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="2500" data-z="-2000" data-rotate-y="90" data-scale="1">
+        <p>Obvious Wrong Assumption!</p>
+        <p> "Clam" is more likely to show up with "England" than say "Georgia", as in  </p>
+        <p>New England Clam Chowder</p>
+        <p>New England Clam Bake</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="2500" data-z="-3000" data-rotate-y="90" data-scale="1">
+        <p>"Cow" is very unlikely to show up with "space"</p>
+        
+    </div>
+    
+    <div class="step " data-x="1000" data-y="2500" data-z="-4000" data-rotate-y="90" data-scale="1">
+        <p>Naive Bayes can still work very well even with this assumption</p>
+        <p>Look at other ways to relax this assumption</p>
+    </div>
+    <div class="step " data-x="1000" data-y="2500" data-z="-5000" data-rotate-y="90" data-scale="1">
+        <p>Naive Bayes can still work very well even with this assumption</p>
+        <p>Look at other ways to relax this assumption later</p>
+    </div>
+
+    <div class="step " data-x="1000" data-y="2500" data-z="-6000" data-rotate-y="90" data-scale="1">
+        <p>With each document as a bag of words</p>
+        <p> We calculate p(word|category) for all words and categories </p>
+    </div>
+        
+    <div class="step " data-x="1000" data-y="2500" data-z="-7000" data-rotate-y="90" data-scale="1">
+        <h2>Bayes Theorem</h2>
+        <p> 300 Year old tech</p>
+          <p>P(A|B)=P(B|A)P(A)/P(B)</p>
+          <p>Intuitively, I observe some evidence, what is the likleihood of the event </p>
+          <p>Ex: I have body aches. What is the probability I have Ebola?</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="2500" data-z="-8000" data-rotate-y="90" data-scale="1">
+        <p>I observe a document with "Spanish" "lottery" "won". What is the probability it is spam?</p>
+    </div>
+    
+    <div class="step " data-x="1000" data-y="2700" data-z="-8000" data-rotate-y="90" data-scale="1">
+        <p>p(spam|"Spanish")=.5</p>
+        <p>p(spam|"lottery")=.8</p>
+        <p>p(spam|"won")=.4</p>
+
+    </div>
+    
+    <div class="step " data-x="1000" data-y="2900" data-z="-8000" data-rotate-y="90" data-scale="1">
+        <p>We multiply the word probabilities with each other for numerator</p>
+        <p>.5*.8*.4=.16</p>
+
+    </div>
+    
+    <div class="step " data-x="1000" data-y="3200" data-z="-8000" data-rotate-y="90" data-scale="1">
+        <p>For the denominator we multiply the inverse and add that to the value of the numerator</p>
+        <p>EX: p(notSpam|"Spanish")*p(notSpam|"lottery")*p(notSpam|"won")</p>
+        <p>.16+.5*.2*.6=.22</p>
+
+    </div>    
+    
+    <div class="step " data-x="1000" data-y="3800" data-z="-8000" data-rotate-y="90" data-scale="1">
+        <p>Numerator/Denominator to get a probability instead of likelihood</p>
+        <p>.16/.22=.72 or .72% chance of being spam</p>
+        
+
+    </div>    
+    
+    <div class="step " data-x="1000" data-y="2500" data-z="-9000" data-rotate-y="90" data-scale="1">
+        <p>We are done if it is a binary classifier, else repeat for each category</p>
+    </div>    
+    
+
+    <div class="step " data-x="0" data-y="2000" data-scale="3">
+        <h3>Decision Rules</h3>
+    </div>    
+    
+    <!--Show probability -->
+    
+    <div class="step " data-x="0" data-y="2000" data-z="-1000" data-scale="1">
+        <p>We need a type of decision for the probabilities we calculated</p>
+      
+    </div>    
+    
+    <div class="step " data-x="10000" data-y="2000" data-z="-1000" data-scale="1">
+        <li>Take the highest.</li>
+        <li>Take the highest given that it exceeds a benchmark</li>
+        <li>Take the higest if and only if it exceeds the runner up by x</li>
+        <li> More?</li>
+    </div>    
+    
+    <div class="step " data-x="-2000" data-y="1000" data-scale="4">
+        <h2>Basic work flow for successful Bayesian filtering</h2>
+    </div>
+    
+    <div class="step " data-x="-2000" data-y="1300"  data-scale="2">
+                    <li>Get some documents</li>
+    </div>
+    
+    <div class="step " data-x="-2000" data-y="1500" data-scale="2">
+              <li>Use an expert, tag the documents </li>
+    </div> 
+    <div class="step " data-x="-2000" data-y="1800" data-scale="2">
+        <li>Train the model with marked documents </li>
+    </div> 
+    <div class="step " data-x="-2000" data-y="2100" data-scale="2">
+        <li> Evaluate the model on a withheld, known testing set</li>
+    </div> 
+    <div class="step " data-x="-2000" data-y="2300" data-scale="2">
+        <li> Fix the model</li>
+    </div> 
+    
+    
+        
+    <div class="step " data-x="-2000" data-y="2400" data-scale="2">
+        <li> Repeat Evaluation if Necessary</li>
+    </div>     
+    
+        
+    <div class="step " data-x="-2000" data-y="2500" data-scale="2">
+         <li> Run it on production</li>
+    </div>     
+    
+        
+    <div class="step " data-x="-2000" data-y="2600" data-scale="2">
+        <li> Check results</li>
+    </div>     
+    
+        
+    <div class="step " data-x="-2000" data-y="2900" data-scale="2">
+        <li> Keep tweaking and retraining the model</li>
+    </div>     
+    
+    
+    <div class="step " data-x="-2000" data-y="2100" data-scale="2">
+        <!--Empty placeholder -->
+    </div>     
+
+    
+    <div class="step" data-x="-2000" data-y="2100" data-z="-1000" data-scale=".5">
+        <p> We have covered some of the steps already, so let's talk about evaluation</p>
+        <p> To know how the classifier is doing, we measure a few things</p>
+    </div>
+    
+    <div class="step " data-x="-2000" data-y="3000" data-z="-1000" data-scale=".5">
+        <p> Type 1 errors</p>
+        <p> False Positive</p>
+    </div>    
+    
+    <div class="step " data-x="-2000" data-y="4000" data-z="-1000" data-scale=".5">
+        <p> Type 2 Error</p>
+        <p> False Negative</p>
+    </div>    
+    
+    <div class="step " data-x="-2000" data-y="5000" data-z="-1000" data-scale=".5">
+        <p> Whiche one matters more depends on the task</p>
+        <p> Ham as spam=Type 1=bad</p>
+        <p> Responsive as non/unresonsive=type 2= also bad</p>
+    </div> 
+    
+    <div class="step " data-x="-2000" data-y="6000" data-z="-1000" data-scale=".5">
+        <h3>Use a confusion matrix</h3>
+        <img src="./assets/confusionmatrix.PNG">
+    </div>
+    
+    <div class="step " data-x="-2000" data-y="7000" data-z="-1000" data-scale=".5">
+        <p> Reserve a seperate testing set of human classified docs</p>
+        <p>Apply the classifier, check expected results and tweak</p>
+    </div>      
+    
+    <!--A bit on evaluation --> 
+    
+    <div class="step " data-x="-2000" data-y="0" data-scale="3">
+        <h2>Improving the model</h2>
+    </div>
+
+    <div class="step " data-x="-2000" data-y="0" data-z="-1000" data-scale="1">
+        <h2>Metadata</h2>
+        
+    </div>
+    
+    <div class="step " data-x="-2000" data-y="1000" data-z="-1000" data-scale="1">
+        <p> Information such as subject line for emails</p>
+        <p>Some words can be more of interest when appearing in different areas of the meta data</p>
+        <p> Classic example from pg is "free" in subject line is much more spammy compared to "free" in the body.</p>
+    </div>
+    
+    <div class="step " data-x="-1000" data-y="0" data-z="-1000" data-scale="1">
+        <h2> N-Grams</h2>
+        
+    </div>
+        
+    
+    <div class="step " data-x="-1000" data-y="1000" data-z="-1000" data-scale="1">
+        <p> Recall the naive independence assumption?</p>
+        <p> We can add more information by dropping this and bringing in n-grams</p>
+        
+    </div>
+        
+    
+    <div class="step " data-x="-1000" data-y="2000" data-z="-1000" data-scale="1">
+        <h2>n-grams work because words that are close together tend to hold information</h2>
+        <p>A bigram is splitting text into pseudo phrases by skipping up to two words </p>
+    </div>
+    
+    <div class="step " data-x="-1000" data-y="3000" data-z="-1000" data-scale="1">
+        <q>Take the money and run.</q>
+        <p> Becomes</p>
+        <li>Take the</li>
+        <li>Take [skip] money </li>
+        <li> Take [skip] [skip] and</li>
+        <li>the money</li>
+        <li>the [skip] money</li>
+        <p> and so on</p>
+    </div>
+    
+    <div class="step " data-x="-1000" data-y="4000" data-z="-1000" data-scale="1">
+        <p> By forming n-grams as features, we take into account that neighbouring words are NOT independent, and preserve information</p>
+        
+    </div>    
+    
+    <div class="step " data-x="-3000" data-y="0" data-z="-1000" data-scale="1">
+        <h2> Stemming</h2>
+        
+    </div>    
+    
+    <div class="step " data-x="-3000" data-y="1000" data-z="-1000" data-scale="1">
+        <p> Execution time tweak, trim features to stem words</p>
+        <p> "Running" trimmed to stem "run" for example</p>
+        <p> Some may trim out features of numbers to cut down the dictionary size</p>
+        
+    </div>
+    
+    
+    <div class="step " data-x="-1000" data-y="-3000" data-scale="3">
+        <h2>Defeating the model</h2>
+    </div>
+    
+    <div class="step " data-x="-2000" data-y="-1000" data-z=-1000 data-rotate-y="90" data-rotate-x="90" data-scale="1">
+        <h2> Spam long passages and hope for a safe word</h2>
+        
+    </div>    
+    
+    <div class="step " data-x="-2000" data-y="-1000" data-z=-2000 data-rotate-y="90" data-rotate-x="90" data-scale="1">
+        <p> For example, placing a bible passage inside the document</p>
+        <p> The bible passage has several innocuous words, but the spammers hope is he triggers a word whose p(ham|word) is high</p>
+        <p> For example, if you have a good friend named Bob</p>
+        <p> Spammer pastes in "If Bob dole could dole dough"</p>
+        <p> Limiting each document to the most informative tokens can somewhat help (needs several lucky tokens in a row to bypass)</p>
+    </div>
+    
+    <div class="step " data-x="-1000" data-y="-1000" data-z=-2000 data-rotate-y="90" data-rotate-x="90" data-scale="1">
+        <h2> Code Words</h2>
+        
+    </div>     
+    
+    <div class="step " data-x="-1000" data-y="-1000" data-z=-3000 data-rotate-y="90" data-rotate-x="90" data-scale="1">
+        <p>Picked up whenever training set is expanded</p>
+    </div>
+
+
+    <div class="step " data-x="-3000" data-y="-2000" data-scale="3">
+        <h2>Implementing the model</h2>
+    </div>
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-1000 data-scale=".1">
+        <p> Apache Stack</p>
+        
+    </div>
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-2000 data-scale=".1">
+        <p> Open NLP</p>
+    </div>
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-3000 data-scale=".1">
+        <p>NLTK </p>
+        
+    </div>
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-4000 data-scale=".1">
+        <p> Bow</p>
+        
+    </div>    
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-5000 data-scale=".1">
+        <p> Gate</p>
+    </div>
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-6000 data-scale=".1">
+        <p> For those who want <strikethrough> blame based development</strikethrough> excellent commercial support</p>
+        <p>Several commercial packages</p>
+        
+    </div>    
+    
+    <div class="step " data-x="-3000" data-y="-2000" data-z=-7000 data-scale=".1">
+        <p> Integration needs some glue code </p>
+        
+    </div>    
+    
+
+<!--TO DO describe work flow for all three pitch here, how three different people could use it and scare tactics of being used against, arms race-->
+    
+    <div class="step " data-x="-3000" data-y="-3000" data-scale="3">
+        <h2>Users and the Classifier</h2>
+    </div>    
+     
+    
+    <div class="step " data-x="-4000" data-y="-2000" data-scale="3">
+        <h2>Beyond Classification, other text mining procedures</h2>
+    </div>
+    
+    <div class="step " data-x="-4000" data-y="-2000" data-z="3000" data-scale="1">
+        <h3>Named Entity Recognition</h3>
+        <!--a marked up example?--> 
+    </div>
+    
+    <div class="step " data-x="-4500" data-y="-1000" data-z="3000" data-scale="1">
+        <h3>Clustering</h3>
+    </div>    
+    
+    <div class="step " data-x="-3500" data-y="-500" data-z="3000" data-scale="1">
+        <h3>Threading</h3>
+    </div>    
+    
+    <div class="step " data-x="-5000" data-y="-2000" data-z="3000" data-scale="1">
+        <h1>Questions?</h1>
+    </div>    
+    
+    <div id="overview" class="step" data-x="1000" data-y="1500" data-scale="10">
+    </div>
+
+    
+    <!--Context switching -->        
+          
+    
+ 
+    
+    <!-- 
+
+        We want to write programs that can go through databases automatically, and sniff out patterns.
+        If a strong relationship is found, that can be used to drive future finds, finding more data points like that
+        
+some patterns may be spurious obvious etc, but thats for us to decide
+        Of course, not all the patterns
+bayes has sound backing in probability principles, and is intuitively easy to understand
+history of spam
+pg
+
+text
+
+corpus
+training test evaluation
+
+
+data needs to be unlocked
+
+text we just need to identify
+
+
+
+
+
+    challenge accepted
+    bird or park
+    kittydar
+    
+    how old are you
+
+
+
+
+
+
+
+get content out care bout rest later -->
+    
 
     <!--
         
+        I want to show that text mining is perfectly usable by mere mortals
+
+        elements of text mining, such as Bayesian classification
+
         Here is where interesting thing start to happen.
         
         Each step of the presentation should be an element inside the `#impress` with a class name
@@ -163,178 +944,7 @@
         It will not be rotated or scaled.
         
     -->
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
-    </div>
-
-    <!--
-        
-        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
-        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
-        
-        So in the example below it'll be `step-2`.
-        
-        The hash part of the url when this step is active will be `#/step-2`.
-        
-        You can also use `#step-2` in a link, to point directly to this particular step.
-        
-        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
-        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
-        
-    -->
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
-    </div>
-
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
-    </div>
-
-    <!--
-        
-        This is an example of step element being scaled.
-        
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-        
-    -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
-    </div>
-
-    <!--
-        
-        This element introduces rotation.
-        
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-        
-    -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
-    </div>
-
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
-    </div>
-
-    <!--
-        
-        And now it gets really exciting! We move into third dimension!
-        
-        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
-        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
-        positioned far away from us (by 3000px).
-        
-    -->
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
-    </div>
-
-    <!--
-        
-        This step here doesn't introduce anything new when it comes to data attributes, but you
-        should notice in the demo that some words of this text are being animated.
-        It's a very basic CSS transition that is applied to the elements when this step element is
-        reached.
-        
-        At the very beginning of the presentation all step elements are given the class of `future`.
-        It means that they haven't been visited yet.
-        
-        When the presentation moves to given step `future` is changed to `present` class name.
-        That's how animation on this step works - text moves when the step has `present` class.
-        
-        Finally when the step is left the `present` class is removed from the element and `past`
-        class is added.
-        
-        So basically every step element has one of three classes: `future`, `present` and `past`.
-        Only one current step has the `present` class.
-        
-    -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-    </div>
-
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
-
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
-    </div>
-
-    <!--
-        
-        And the last one shows full power and flexibility of impress.js.
-        
-        You can not only position element in 3D, but also rotate it around any axis.
-        So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
-        10 degrees (clockwise) around Y axis.
-        
-        You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
-        as `data-rotate` (these two are basically aliases).
-        
-    -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
-
-    <!--
-        
-        So to summarize of all the possible attributes used to position presentation steps, we have:
-        
-        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
-            the canvas in pixels; their default value is 0;
-        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
-            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
-            are exactly the same;
-        * `data-scale` - defines the scale of step element; default value is 1
-        
-        These values are used by impress.js in CSS transformation functions, so for more information consult
-        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
-        
-    -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
-
-</div>
-
-<!--
-    
-    Hint is not related to impress.js in any way.
-    
-    But it can show you how to use impress.js features in creative way.
-    
-    When the presentation step is shown (selected) its element gets the class of "active" and the body element
-    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
-    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
-    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
-    
-    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
-    the first step of presentation is visible for a couple of seconds.
-    
-    ...
-    
-    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
-    It's just a quick and dirty workaround to get different hint text for touch devices.
-    In a real world it should be at least placed in separate JS file ... and the touch content should be
-    probably just hidden somewhere in HTML - not hard-coded in the script.
-    
-    Just sayin' ;)
-    
--->
+   
 <div class="hint">
     <p>Use a spacebar or arrow keys to navigate</p>
 </div>
