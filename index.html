@@ -223,7 +223,7 @@ use blockquote for longer quotes
     </div>
     
     <div class="step slide" data-x="3000" data-y="4500" data-z=-8000 data-rotate-z="60" data-scale="1">
-         <q> For example, whether John Paul Jones referred to the Captain of a fighting sail or the musician</q>           <q>Or whether Georgia refers to peaches or plums.</q>
+        <q> For example, whether <b>John Paul Jones</b> refers to the Captain of a fighting sail or the musician</q>           <q>Or whether <b>Georgia</b> refers to peaches or plums.</q>
     </div>
     
     <div class="step slide" data-x="3000" data-y="5500" data-z=-8000 data-rotate-z="60" data-scale="1">
@@ -231,7 +231,7 @@ use blockquote for longer quotes
     </div>
     
     <div class="step slide" data-x="3000" data-y="6500" data-z=-8000 data-rotate-z="60" data-scale="1">
-         <q > And it is even harder to try and explain that in a form understadable to a computer</q>   
+         <q > And it is even harder to try and explain that in a form understandable to a computer</q>   
 
     </div>      
     
@@ -418,7 +418,7 @@ use blockquote for longer quotes
         <p> Frequency of the Words in each of the categories</p>    
     </div>    
     
-    <div class="step " data-x="2000" data-y="1500" data-z="-1000" data-scale="1">
+    <div id="six" class="step " data-x="2000" data-y="1500" data-z="-1000" data-scale="1">
          <p>Our test set consists of 6 documents</p>
         
         <li>Don't forget to pick up some eggs.</li>
@@ -516,36 +516,34 @@ use blockquote for longer quotes
     
     
 
-    <div id="stopwords" class="step " data-x="2000" data-y="3000" data-z="-1000" data-scale="1">
+    <div id="stopword1" class="step " data-x="2000" data-y="3000" data-z="-1000" data-scale="1">
         <!--Add CSS to strike through stop words --> 
         
-        <li>Don't forget to pick up some eggs before you come home.</li>
-        <li>You have won the Spanish lottery. Click to claim now!</li>
-        <li>Refinance your home at our low interest rates.</li>
-        <li>Can this unique formula make you lose weight?</li>
-        <li>Bob, I tried rebooting my modem, but I am still getting the blinkenlights</li>
-        <li> Your Amazon.com order of (1 dozen eggs) has shipped!</li>
+        <li>Don't forget <span class="stopword">to</span> pick <span class="stopword">up</span> some eggs before <span class="stopword">you</span> come home.</li>
+        <li><span class="stopword">You</span> <span class="stopword">have</span> won <span class="stopword">the</span> Spanish lottery. Click <span class="stopword">to</span> claim now!</li>
+        <li>Refinance <span class="stopword">your</span> home <span class="stopword">at</span> <span class="stopword">our</span> low interest rates.</li>
+        <li>Can <span class="stopword">this</span> unique formula make <span class="stopword">you</span> lose weight?</li>
+        <li>Bob, <span class="stopword">I</span> tried rebooting <span class="stopword">my</span> modem, <span class="stopword">but</span> <span class="stopword">I</span> <span class="stopword">am</span> still getting <span class="stopword">the</span> blinkenlights</li>
+        <li> <span class="stopword">You</span> Amazon.com order <span class="stopword">of</span> (1 dozen eggs) <span class="stopword">has</span> shipped!</li>
     </div>
     
     <div class="step " data-x="1000" data-y="1000" data-z="-7000" data-rotate-y="90" data-scale="1">
-        <p>AFter this each document is reduced to a bag of words</p>
+        <p>After this each document is reduced to a bag of words</p>
         <p> Word order, punctuation etc are not preserved</p>
         
     </div>
-    <div id="stopwords" class="step " data-x="2000" data-y="4000" data-z="-1000" data-scale="1">
+    <div id="bagofwords" class="step " data-x="2000" data-y="4000" data-z="-1000" data-scale="1">
         <!--Add CSS to place left overs in a bag --> 
-        
-        <li>Don't forget to pick up some eggs before you come home.</li>
-        <li>You have won the Spanish lottery. Click to claim now!</li>
-        <li>Refinance your home at our low interest rates.</li>
-        <li>Can this unique formula make you lose weight?</li>
-        <li>Bob, I tried rebooting my modem, but I am still getting the blinkenlights</li>
-        <li> Your Amazon.com order of (1 dozen eggs) has shipped!</li>
+   
+        <blockquote class="oval-quotes1"><p style="margin-left: 110pt;">Won</br>Spanish</br> lottery </br> click  </br> claim </p></blockquote>
+
     </div>
         
     
+    
+        
     <div class="step " data-x="2000" data-y="2500" data-z="-1000" data-rotate-y="90" data-scale="1">
-        <p>Naive part</p>
+        <p><em>Naive</em> part </p>
         <p> Assumes that all tokens are independent of one another</p>
     </div>
     
@@ -872,6 +870,12 @@ use blockquote for longer quotes
     
     <div class="step " data-x="-5000" data-y="-2000" data-z="3000" data-scale="1">
         <h1>Questions?</h1>
+    </div>
+
+    <div id="its-in-3d" class="step" data-x="-6000" data-y="-3000" data-z="4000" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><blockquote>The plaintiffs asked for 500 keywords to search on,” said Mike Sullivan, chief executive of Autonomy Protect, the company’s e-discovery division.
+        In response, he said, the <span class="its">defense lawyers</span> used those words to analyze their <b>own</b> documents during the negotiations, and those results helped them bargain more effectively, Mr. Sullivan said.</blockquote> </p>
+<p><span class="footnote">New York Times 2011</span></p>
     </div>    
     
     <div id="overview" class="step" data-x="1000" data-y="1500" data-scale="10">

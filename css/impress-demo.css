@@ -85,9 +85,9 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: rgb(215, 150, 240);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(220, 240, 180)), to(rgb(190, 150, 190)));
+    background: -webkit-radial-gradient(rgb(220, 240, 240), rgb(190, 150, 170));
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
@@ -444,19 +444,19 @@ a:focus {
     -o-transform:      translateZ(40px);
      transform:        translateZ(40px);
 
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition:    1.5s;
+    -ms-transition:     1.5s;
+    -o-transition:      1.5s;
+    transition:         1.5s;
 }
 
 #its-in-3d .have {
-    -webkit-transform: translateZ(-40px);
-    -moz-transform:    translateZ(-40px);
-    -ms-transform:     translateZ(-40px);
-    -o-transform:      translateZ(-40px);
-    transform:         translateZ(-40px);
+    -webkit-transform: translateZ(300px);
+    -moz-transform:    translateZ(300px);
+    -ms-transform:     translateZ(300px);
+    -o-transform:      translateZ(300px);
+    transform:         translateZ(300px);
 }
 
 #its-in-3d .you {
@@ -494,11 +494,11 @@ a:focus {
 #its-in-3d .footnote {
     font-size: 32px;
 
-    -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
+    -webkit-transform: translateZ(-40px);
+    -moz-transform:    translateZ(-40px);
+    -ms-transform:     translateZ(-40px);
+    -o-transform:      translateZ(-40px);
+    transform:         translateZ(-40px);
 }
 
 #its-in-3d.present span,
@@ -703,10 +703,175 @@ a:focus {
 */
 
 
-
+/*******************************************/
 
 /*Frankos fat css*/
 
 #imagination .imagination {
     font-size: 78px;
 }
+
+
+/*A span for striked through and red stop words*/
+
+li span.stopword {
+   text-decoration:line-through;
+    color:#e9463c;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style:     preserve-3d;
+    -o-transform-style:      preserve-3d;
+    transform-style:         preserve-3d;    
+    display: inline-block;
+    -webkit-transform: translateZ(-40px);
+    -moz-transform:    translateZ(-40px);
+    -ms-transform:     translateZ(-40px);
+    -o-transform:      translateZ(-40px);
+     transform:        translateZ(-40px);
+
+    -webkit-transition: 1.5s;
+    -moz-transition:    1.5s;
+    -ms-transition:     1.5s;
+    -o-transition:      1.5s;
+    transition:         1.5s;
+}
+
+.oval-quotes1 {
+	position:relative;
+	width:500px;
+	height:450px;
+	margin: 150px 200px 10px 100px;
+	color:#000;
+	background:#b3e1d6;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:Apx Bpx; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:Apx / Bpx; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	
+	-webkit-border-top-left-radius:500px 450px;
+	-webkit-border-top-right-radius:500px 450px;
+	-webkit-border-bottom-right-radius:500px 450px;
+	-webkit-border-bottom-left-radius:500px 450px;
+	-moz-border-radius:500px / 450px;
+	border-radius:500px / 450px;
+}
+
+.oval-quotes2 {
+	position:relative;
+	width:300px;
+	height:250px;
+	margin: 300px 200px 10px 100px;
+	color:#000;
+	background:#b3e1d6;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:Apx Bpx; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:Apx / Bpx; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	
+	-webkit-border-top-left-radius:400px 350px;
+	-webkit-border-top-right-radius:400px 350px;
+	-webkit-border-bottom-right-radius:400px 350px;
+	-webkit-border-bottom-left-radius:400px 350px;
+	-moz-border-radius:400px / 350px;
+	border-radius:400px / 350px;
+}
+
+.oval-quotes3 {
+	position:relative;
+	width:300px;
+	height:250px;
+	margin: 150px 0px 10px 100px;
+	color:#000;
+	background:#b3e1d6;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:Apx Bpx; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:Apx / Bpx; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	
+	-webkit-border-top-left-radius:400px 350px;
+	-webkit-border-top-right-radius:400px 350px;
+	-webkit-border-bottom-right-radius:400px 350px;
+	-webkit-border-bottom-left-radius:400px 350px;
+	-moz-border-radius:400px / 350px;
+	border-radius:400px / 350px;
+}
+
+.oval-quotes4 {
+	position:relative;
+	width:300px;
+	height:250px;
+	margin: 150px 200px 300px 100px;
+	color:#000;
+	background:#b3e1d6;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:Apx Bpx; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:Apx / Bpx; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	
+	-webkit-border-top-left-radius:400px 350px;
+	-webkit-border-top-right-radius:400px 350px;
+	-webkit-border-bottom-right-radius:400px 350px;
+	-webkit-border-bottom-left-radius:400px 350px;
+	-moz-border-radius:400px / 350px;
+	border-radius:400px / 350px;
+}
+
+.oval-quotes5 {
+	position:relative;
+	width:300px;
+	height:250px;
+	margin: 150px 200px 10px 100px;
+	color:#000;
+	background:#b3e1d6;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:Apx Bpx; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:Apx / Bpx; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	
+	-webkit-border-top-left-radius:400px 350px;
+	-webkit-border-top-right-radius:400px 350px;
+	-webkit-border-bottom-right-radius:400px 350px;
+	-webkit-border-bottom-left-radius:400px 350px;
+	-moz-border-radius:400px / 350px;
+	border-radius:400px / 350px;
+}
+
+.oval-quotes6 {
+	position:relative;
+	width:300px;
+	height:250px;
+	margin: 150px 200px 210px 0px;
+	color:#000;
+	background:#b3e1d6;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:Apx Bpx; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:Apx / Bpx; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	
+	-webkit-border-top-left-radius:400px 350px;
+	-webkit-border-top-right-radius:400px 350px;
+	-webkit-border-bottom-right-radius:400px 350px;
+	-webkit-border-bottom-left-radius:400px 350px;
+	-moz-border-radius:400px / 350px;
+	border-radius:400px / 350px;
+}
+
