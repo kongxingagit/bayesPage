@@ -563,17 +563,14 @@ use blockquote for longer quotes
         <p>Naive Bayes can still work very well even with this assumption</p>
         <p>Look at other ways to relax this assumption</p>
     </div>
-    <div class="step " data-x="1000" data-y="2500" data-z="-5000" data-rotate-y="90" data-scale="1">
-        <p>Naive Bayes can still work very well even with this assumption</p>
-        <p>Look at other ways to relax this assumption later</p>
-    </div>
 
-    <div class="step " data-x="1000" data-y="2500" data-z="-6000" data-rotate-y="90" data-scale="1">
+
+    <div class="step " data-x="1000" data-y="2500" data-z="-5000" data-rotate-y="90" data-scale="1">
         <p>With each document as a bag of words</p>
         <p> We calculate p(word|category) for all words and categories </p>
     </div>
         
-    <div class="step " data-x="1000" data-y="2500" data-z="-7000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="2500" data-z="-6000" data-rotate-y="90" data-scale="1">
         <h2>Bayes Theorem</h2>
         <p> 300 Year old tech</p>
           <p>P(A|B)=P(B|A)P(A)/P(B)</p>
@@ -581,38 +578,38 @@ use blockquote for longer quotes
           <p>Ex: I have body aches. What is the probability I have Ebola?</p>
     </div>
     
-    <div class="step " data-x="1000" data-y="2500" data-z="-8000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="2500" data-z="-7000" data-rotate-y="90" data-scale="1">
         <p>I observe a document with "Spanish" "lottery" "won". What is the probability it is spam?</p>
     </div>
     
-    <div class="step " data-x="1000" data-y="2700" data-z="-8000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="2700" data-z="-7000" data-rotate-y="90" data-scale="1">
         <p>p(spam|"Spanish")=.5</p>
         <p>p(spam|"lottery")=.8</p>
         <p>p(spam|"won")=.4</p>
 
     </div>
     
-    <div class="step " data-x="1000" data-y="2900" data-z="-8000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="2900" data-z="-7000" data-rotate-y="90" data-scale="1">
         <p>We multiply the word probabilities with each other for numerator</p>
         <p>.5*.8*.4=.16</p>
 
     </div>
     
-    <div class="step " data-x="1000" data-y="3200" data-z="-8000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="3200" data-z="-7000" data-rotate-y="90" data-scale="1">
         <p>For the denominator we multiply the inverse and add that to the value of the numerator</p>
         <p>EX: p(notSpam|"Spanish")*p(notSpam|"lottery")*p(notSpam|"won")</p>
         <p>.16+.5*.2*.6=.22</p>
 
     </div>    
     
-    <div class="step " data-x="1000" data-y="3800" data-z="-8000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="3800" data-z="-7000" data-rotate-y="90" data-scale="1">
         <p>Numerator/Denominator to get a probability instead of likelihood</p>
         <p>.16/.22=.72 or .72% chance of being spam</p>
         
 
     </div>    
     
-    <div class="step " data-x="1000" data-y="2500" data-z="-9000" data-rotate-y="90" data-scale="1">
+    <div class="step " data-x="1000" data-y="2500" data-z="-8000" data-rotate-y="90" data-scale="1">
         <p>We are done if it is a binary classifier, else repeat for each category</p>
     </div>    
     
