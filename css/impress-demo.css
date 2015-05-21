@@ -86,12 +86,12 @@ body {
     min-height: 740px;
 
     background: rgb(215, 150, 240);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(220, 240, 180)), to(rgb(190, 150, 190)));
-    background: -webkit-radial-gradient(rgb(220, 240, 240), rgb(190, 150, 170));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(230, 240, 180)), to(rgb(180, 190, 185)));
+    background: -webkit-radial-gradient(rgb(230, 240, 240), rgb(190, 190, 185));
+    background:    -moz-radial-gradient(rgb(230, 240, 240), rgb(190, 190, 185));
+    background:     -ms-radial-gradient(rgb(230, 240, 240), rgb(190, 190, 185));
+    background:      -o-radial-gradient(rgb(230, 240, 240), rgb(190, 190, 185));
+    background:         radial-gradient(rgb(230, 240, 240), rgb(190, 190, 185));
 }
 
 /*
@@ -444,11 +444,11 @@ a:focus {
     -o-transform:      translateZ(40px);
      transform:        translateZ(40px);
 
-    -webkit-transition: 1.5s;
-    -moz-transition:    1.5s;
-    -ms-transition:     1.5s;
-    -o-transition:      1.5s;
-    transition:         1.5s;
+    -webkit-transition: 5.5s;
+    -moz-transition:    5.5s;
+    -ms-transition:     5.5s;
+    -o-transition:      5.5s;
+    transition:         5.5s;
 }
 
 #its-in-3d .have {
